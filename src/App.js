@@ -70,7 +70,7 @@ function App() {
   return (
     <div className="App">
       <h1>Bajaj Finserv Health Dev Challenge</h1>
-      <h1>Vishal  , 0827CY221068 , vishalpatidar221184@acropolis.in</h1>
+      <h1>Vishal Patidar , 0827CY221068 , vishalpatidar221184@acropolis.in</h1>
 
       <textarea
         value={jsonInput}
