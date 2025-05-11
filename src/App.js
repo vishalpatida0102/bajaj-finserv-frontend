@@ -30,7 +30,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('https://bajaj-coding-challange-backend.onrender.com/bfhl',{ input:jsonInput});
+      const response = await axios.post('https://bajaj-finserv-backend1.onrender.com/bfhl',{ input:jsonInput});
       setResponse(response.data);
       setIsLoading(false);
     } catch (err) {
